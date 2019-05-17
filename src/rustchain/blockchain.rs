@@ -14,7 +14,7 @@ impl Blockchain {
 
         Ok(
             Self {
-                difficulty: difficulty,
+                difficulty,
                 blocks: vec![blocks]
             }
         )

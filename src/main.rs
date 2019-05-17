@@ -35,7 +35,7 @@ fn main() {
     println!("Creating blockchain with difficulty: {}", difficulty);
 
     let options = RuntimeOptions {
-        difficulty: difficulty,
+        difficulty,
     };
 
     run(&options).
